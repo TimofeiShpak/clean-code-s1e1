@@ -23,7 +23,8 @@ body {
 
 @media (max-width: 768px) {
 
-.header { text-align: center;
+.header { 
+    text-align: center;
 }
 
 }
@@ -169,11 +170,11 @@ input,
     display: none;
 }
 
-.edit-mode__input {
+.edit-mode .input-text {
     display: inline-block;
     width: 224px;
 }
 
-.edit-mode__label {
+.edit-mode .list__label {
     display: none;
 }
